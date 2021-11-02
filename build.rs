@@ -36,7 +36,7 @@ fn main() {
 
     println!("cargo:rustc-link-lib=dlib");
     println!("cargo:rustc-link-lib=lapack");
-    println!("cargo:rustc-link-lib=cblas");
+    println!("cargo:rustc-link-lib=blas");
 
     config.build("src/lib.rs");
 
